@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:
+
+Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/new_docs_picoclaw/sitemap.xml
