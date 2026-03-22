@@ -1,1 +1,6 @@
-// place your custom styles here
+.vp-hero-title {
+  background: linear-gradient(to right, #4a85c5 29%, #d8523f 29%) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}

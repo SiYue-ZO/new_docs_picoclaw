@@ -5,16 +5,21 @@ import theme from "./theme.js";
 export default defineUserConfig({
   base: "/",
 
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+  ],
+
+
   locales: {
     "/": {
       lang: "en-US",
-      title: "Docs Demo",
-      description: "A docs demo for vuepress-theme-hope",
+      title: "PicoClaw",
+      description: "Docs for PicoClaw",
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "文档演示",
-      description: "vuepress-theme-hope 的文档演示",
+      title: "PicoClaw",
+      description: "PicoClaw 的文档",
     },
   },
 

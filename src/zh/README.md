@@ -2,8 +2,12 @@
 home: true
 icon: house
 title: 主页
-heroImage: /banner.jpg
-# bgImage: /banner.jpg
+heroImage: /logo.png
+heroStyle:
+  min-height: 400px
+
+  # background-attachment: fixed
+# bgImage: /herobg.png
 # bgImage: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)
 # bgImageDark: linear-gradient(135deg, #1a2a6c 0%, #b21f1f 50%, #fdbb2d 100%)
 heroText: PicoClaw
@@ -49,10 +53,15 @@ highlights:
 
 
         
+
+    
+
   - header: 加入社区
     description: 与我们互动，获取最新动态
 
-    features:
+    image: https://github.com/sipeed/picoclaw/blob/main/assets/wechat.png?raw=true
+  
+    highlights:
       - title: Discord
         icon: fa6-brands:discord
         details: 加入我们的 Discord 社区，与其他用户交流
@@ -69,6 +78,12 @@ highlights:
         icon: fa6-brands:twitter
         details: 关注 Sipeed 官方推特获取最新动态
         link: https://twitter.com/sipeed
+
+
+
+
+
+
 
 
 copyright: true
