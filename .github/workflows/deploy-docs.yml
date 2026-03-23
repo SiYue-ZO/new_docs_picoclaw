@@ -56,7 +56,6 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |
           pnpm run docs:build
-          touch src/.vuepress/dist/.nojekyll
 
       - name: Setup Pages
         if: ${{ github.event_name != 'pull_request' }}
